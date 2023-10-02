@@ -5,18 +5,18 @@ import add_manipulation as am
 # Prints out the options.
 def help():
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-    print("Enter 'AR' to run example demo.")
-    print("Enter 'AE' to add a new router.")
-    print("Enter 'AS' to add a new end device.")
+    print("Enter 'AR' to add a new router.")
+    print("Enter 'AE' to add a new end device.")
+    print("Enter 'AS' to add a new switch.")
     print("Enter 'RD' to remove a device.")
 
     print("Enter 'AC' to add a connection between 2 devices.")
     print("Enter 'RC' to remove a connection between 2 devices.")
 
-    print("Enter 'AI' to add an IP address to an existing router.")
-    print("Enter 'RI' to remove an existing IP address from a router.")
+    print("Enter 'AI' to add a new IPv6 address to an existing router.")
+    print("Enter 'RI' to remove an IPv6 address from a router.")
 
-    print("Enter 'TT' to create a default test topology with two routers, three end devices, and a switch.")
+    print("Enter 'TT' to create a prebuilt test topology with two routers, three end devices, and a switch.")
     print("Enter 'SS' to start the simulation.")
 
     print("Enter 'PT' to print topology.")
